@@ -1,65 +1,43 @@
 # Tanner Griffith
 
-### Enterprise customer success leader building production AI systems
+### Enterprise customer success leader building applied AI systems
 
-I turn fragmented customer signals into reliable workflows that help people make better decisions. Today, I manage **42 enterprise accounts representing $1–3M in ARR** while designing and operating AI systems for meeting preparation, portfolio briefs, churn-risk detection, and CRM drafting.
+I build AI systems for real business workflows — especially the messy ones where important signals are scattered across tools, judgment matters, and trust is non-negotiable.
 
-My operating principle:
+My design principle:
 
 > **Deterministic where it must be correct. AI where it must be readable.**
 
-Code computes the numbers. Models write the sentences. Humans review consequential actions.
+Code computes the numbers. Models write the sentences. Humans stay accountable for consequential decisions.
 
-## What I bring
-
-- **Enterprise judgment:** 20 years responsible for revenue, complex relationships, and high-stakes decisions
-- **Applied AI systems:** agent orchestration, tool integration, structured workflows, evaluation, and human-in-the-loop controls
-- **Customer-success expertise:** portfolio strategy, risk identification, executive communication, and operational rigor
-- **Builder's discipline:** working products, reproducible tests, honest limitations, and evidence over demos
-
-## Featured work
+## What I'm building
 
 ### [Phono StoryForge](https://github.com/tanner-griffith/phono-storyforge)
 
-A closed-loop adaptive reading tutor for early, struggling, and dyslexic readers, built with Google's Agent Development Kit.
+An adaptive reading tutor for early, struggling, and dyslexic readers.
 
-- Maintains a per-child mastery model using Bayesian Knowledge Tracing
-- Selects the next phonics objective from the learner's own reading evidence
-- Generates stories and verifies decodability with deterministic Python
-- Attributes reading miscues to specific graphemes and adapts the next session
-- Tests the adaptive strategy against an independently modeled simulated learner
+Instead of generating a one-off story, it learns from how a child reads. The system tracks phonics mastery, selects the next skill to practice, generates a story at the right level, identifies specific reading miscues, and adapts the following session.
 
-In a reproducible 30-learner, 40-session experiment, the adaptive approach improved benchmark accuracy, latent mastery, and simulated fluency over a fixed sequence. The repository includes the product loop, evaluation harness, tests, architecture, limitations, and supporting evidence.
+The interesting engineering challenge is trust: AI proposes the content, while deterministic Python verifies that every generated book is actually decodable for that learner. The repository includes the working product loop, evaluation harness, tests, architecture, and an honest account of current limitations.
 
-### CSM Copilot — private production system
+### CSM Copilot *(private)*
 
-An AI chief of staff for an enterprise customer-success portfolio. It connects signals across six systems to produce morning briefs, meeting preparation, risk flags, and CRM drafts.
+An AI chief of staff for enterprise customer success. It brings fragmented customer signals together to support meeting preparation, portfolio briefs, risk identification, and CRM drafting.
 
-The system uses deterministic Python for metrics, a fact-checking agent to gate generated briefs, and human review before consequential actions. Because it operates on live customer financial data, the production repository remains private. A synthetic-data case study is planned.
+The system uses deterministic calculations for metrics, an independent fact-checking step for generated briefs, and human review before consequential actions. The production repository stays private because it operates on live customer data; the system and design decisions can still be discussed without exposing that data.
 
-## How I build
+## How I approach AI
 
-```text
-Business context → structured signals → deterministic checks
-                 → AI synthesis → human review → measurable outcome
-```
+- Start with the real workflow, not the model
+- Use deterministic software for facts, calculations, and guardrails
+- Use AI for synthesis, explanation, and judgment support
+- Evaluate the system against evidence instead of trusting a polished demo
+- Keep humans responsible for decisions that affect customers
 
-I am especially interested in work at the intersection of:
-
-- Applied AI and agent systems
-- Enterprise customer success and solutions
-- AI enablement and workflow transformation
-- Product operations and customer intelligence
-- Evaluation, guardrails, and trustworthy automation
-
-## Background
-
-Before building AI systems, I spent two decades building the judgment they need to support: managing a **$30M banking portfolio**, leading organizations through growth, and serving enterprise SaaS customers.
-
-I started building because valuable customer signals were disappearing across disconnected tools. That frustration became a practical specialty: turning real operational problems into systems people can trust and use every day.
+I'm especially interested in applied AI, agent systems, AI-enabled customer success, solutions work, product operations, evaluation, and trustworthy automation.
 
 ## Connect
 
-**Raleigh–Durham, North Carolina**
+Raleigh–Durham, North Carolina
 
 [LinkedIn](https://www.linkedin.com/in/tanner-griffith-85455b23/) · [Email](mailto:tanner.griffith@gmail.com)
