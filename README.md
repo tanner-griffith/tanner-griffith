@@ -6,6 +6,14 @@ A lot of my work starts with the same frustration: the information is there, but
 
 ## What I'm working on
 
+### CSM Copilot *(private)*
+
+CSM Copilot helps me manage an enterprise customer portfolio. It gathers information from the systems I already use and turns it into morning briefs, meeting preparation, risk flags, and CRM drafts.
+
+The calculations and risk rules run in regular Python. A separate fact-checking step reviews the generated briefs, and nothing is sent to a customer automatically.
+
+The repository is private because it works with real customer information. I plan to publish a case study and a demo built with synthetic data.
+
 ### [Phono StoryForge](https://github.com/tanner-griffith/phono-storyforge)
 
 Phono StoryForge is an adaptive reading tutor for early, struggling, and dyslexic readers.
@@ -15,14 +23,6 @@ It keeps track of the phonics patterns a child has mastered, chooses what to pra
 I also built an evaluation that compares the adaptive tutor with a fixed lesson sequence. The simulated learner uses a different learning model from the tutor, which makes the test harder to game and the results more useful.
 
 The repository includes the application, tests, evaluation code, architecture notes, and the parts that still need work.
-
-### CSM Copilot *(private)*
-
-CSM Copilot helps me manage an enterprise customer portfolio. It gathers information from the systems I already use and turns it into morning briefs, meeting preparation, risk flags, and CRM drafts.
-
-The calculations and risk rules run in regular Python. A separate fact-checking step reviews the generated briefs, and nothing is sent to a customer automatically.
-
-The repository is private because it works with real customer information. I plan to publish a case study and a demo built with synthetic data.
 
 ## What I care about
 
