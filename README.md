@@ -1,40 +1,34 @@
 # Tanner Griffith
 
-### Enterprise customer success leader building applied AI systems
+I work in enterprise customer success, and I build AI systems for problems I run into in the real world.
 
-I build AI systems for real business workflows — especially the messy ones where important signals are scattered across tools, judgment matters, and trust is non-negotiable.
+A lot of my work starts with the same frustration: the information is there, but it is spread across too many tools to be useful at the right moment. I like figuring out how to bring those signals together without turning the result into another black box.
 
-My design principle:
-
-> **Deterministic where it must be correct. AI where it must be readable.**
-
-Code computes the numbers. Models write the sentences. Humans stay accountable for consequential decisions.
-
-## What I'm building
+## What I'm working on
 
 ### [Phono StoryForge](https://github.com/tanner-griffith/phono-storyforge)
 
-An adaptive reading tutor for early, struggling, and dyslexic readers.
+Phono StoryForge is an adaptive reading tutor for early, struggling, and dyslexic readers.
 
-Instead of generating a one-off story, it learns from how a child reads. The system tracks phonics mastery, selects the next skill to practice, generates a story at the right level, identifies specific reading miscues, and adapts the following session.
+It keeps track of the phonics patterns a child has mastered, chooses what to practice next, creates a story at that level, and updates its plan based on how the child reads it. The generated stories go through a separate Python check before they can be used, so the model cannot simply declare that a book is decodable.
 
-The interesting engineering challenge is trust: AI proposes the content, while deterministic Python verifies that every generated book is actually decodable for that learner. The repository includes the working product loop, evaluation harness, tests, architecture, and an honest account of current limitations.
+I also built an evaluation that compares the adaptive tutor with a fixed lesson sequence. The simulated learner uses a different learning model from the tutor, which makes the test harder to game and the results more useful.
+
+The repository includes the application, tests, evaluation code, architecture notes, and the parts that still need work.
 
 ### CSM Copilot *(private)*
 
-An AI chief of staff for enterprise customer success. It brings fragmented customer signals together to support meeting preparation, portfolio briefs, risk identification, and CRM drafting.
+CSM Copilot helps me manage an enterprise customer portfolio. It gathers information from the systems I already use and turns it into morning briefs, meeting preparation, risk flags, and CRM drafts.
 
-The system uses deterministic calculations for metrics, an independent fact-checking step for generated briefs, and human review before consequential actions. The production repository stays private because it operates on live customer data; the system and design decisions can still be discussed without exposing that data.
+The calculations and risk rules run in regular Python. A separate fact-checking step reviews the generated briefs, and nothing is sent to a customer automatically.
 
-## How I approach AI
+The repository is private because it works with real customer information. I plan to publish a case study and a demo built with synthetic data.
 
-- Start with the real workflow, not the model
-- Use deterministic software for facts, calculations, and guardrails
-- Use AI for synthesis, explanation, and judgment support
-- Evaluate the system against evidence instead of trusting a polished demo
-- Keep humans responsible for decisions that affect customers
+## What I care about
 
-I'm especially interested in applied AI, agent systems, AI-enabled customer success, solutions work, product operations, evaluation, and trustworthy automation.
+I'm interested in applied AI that helps people do their jobs better: agent systems, customer-success tools, product operations, evaluation, and the practical work of making these systems reliable.
+
+My background is in customer relationships and revenue, not traditional software engineering. That is usually where I start—understanding the work, the people doing it, and what would actually be useful—then I build from there.
 
 ## Connect
 
