@@ -1,37 +1,65 @@
 # Tanner Griffith
 
-**I build AI systems that run a real business — starting with my own.**
+### Enterprise customer success leader building production AI systems
 
-I'm an Enterprise Customer Success Manager (42 accounts, $1–3M ARR) who designed
-and built the AI systems that manage that book with me: morning briefs, meeting
-prep, churn-risk flags, and CRM drafts — in production, every working day.
+I turn fragmented customer signals into reliable workflows that help people make better decisions. Today, I manage **42 enterprise accounts representing $1–3M in ARR** while designing and operating AI systems for meeting preparation, portfolio briefs, churn-risk detection, and CRM drafting.
 
-My design signature, demonstrated across everything here:
-**deterministic where it must be correct; AI where it must be readable.**
-Code computes the numbers. The model writes the sentences. A human reviews every send.
+My operating principle:
 
-## What to look at
+> **Deterministic where it must be correct. AI where it must be readable.**
 
-- **[phono-storyforge](https://github.com/tanner-griffith/phono-storyforge)** —
-  An adaptive reading tutor for early, struggling, and dyslexic readers, built on
-  Google's Agent Development Kit. Per-child mastery modeling (Bayesian Knowledge
-  Tracing), guaranteed-decodable book generation with deterministic verification,
-  miscue-to-grapheme attribution, and a simulated-learner eval that deliberately
-  uses a *different* cognitive model than the tutor assumes. Capstone for Google's
-  AI Agents Intensive.
-- **CSM Copilot** *(private)* — my flagship: an AI chief of staff for an enterprise
-  CS portfolio. Claude + MCP connectors over six systems, deterministic Python for
-  metrics and risk flags, a fact-checker subagent gating every brief. It runs on
-  live customer financial data, so the repo stays private — a case study with a
-  synthetic-data demo is coming to my portfolio site.
+Code computes the numbers. Models write the sentences. Humans review consequential actions.
+
+## What I bring
+
+- **Enterprise judgment:** 20 years responsible for revenue, complex relationships, and high-stakes decisions
+- **Applied AI systems:** agent orchestration, tool integration, structured workflows, evaluation, and human-in-the-loop controls
+- **Customer-success expertise:** portfolio strategy, risk identification, executive communication, and operational rigor
+- **Builder's discipline:** working products, reproducible tests, honest limitations, and evidence over demos
+
+## Featured work
+
+### [Phono StoryForge](https://github.com/tanner-griffith/phono-storyforge)
+
+A closed-loop adaptive reading tutor for early, struggling, and dyslexic readers, built with Google's Agent Development Kit.
+
+- Maintains a per-child mastery model using Bayesian Knowledge Tracing
+- Selects the next phonics objective from the learner's own reading evidence
+- Generates stories and verifies decodability with deterministic Python
+- Attributes reading miscues to specific graphemes and adapts the next session
+- Tests the adaptive strategy against an independently modeled simulated learner
+
+In a reproducible 30-learner, 40-session experiment, the adaptive approach improved benchmark accuracy, latent mastery, and simulated fluency over a fixed sequence. The repository includes the product loop, evaluation harness, tests, architecture, limitations, and supporting evidence.
+
+### CSM Copilot — private production system
+
+An AI chief of staff for an enterprise customer-success portfolio. It connects signals across six systems to produce morning briefs, meeting preparation, risk flags, and CRM drafts.
+
+The system uses deterministic Python for metrics, a fact-checking agent to gate generated briefs, and human review before consequential actions. Because it operates on live customer financial data, the production repository remains private. A synthetic-data case study is planned.
+
+## How I build
+
+```text
+Business context → structured signals → deterministic checks
+                 → AI synthesis → human review → measurable outcome
+```
+
+I am especially interested in work at the intersection of:
+
+- Applied AI and agent systems
+- Enterprise customer success and solutions
+- AI enablement and workflow transformation
+- Product operations and customer intelligence
+- Evaluation, guardrails, and trustworthy automation
 
 ## Background
 
-Twenty years responsible for revenue and the relationships behind it — a $30M
-bank portfolio, a decade leading organizations through growth, now enterprise
-SaaS customer success. I taught myself to build with Claude Code because I got
-tired of watching signals die in six different tabs.
+Before building AI systems, I spent two decades building the judgment they need to support: managing a **$30M banking portfolio**, leading organizations through growth, and serving enterprise SaaS customers.
 
-📍 Raleigh-Durham, NC ·
-[LinkedIn](https://www.linkedin.com/in/tanner-griffith-85455b23/) ·
-tanner.griffith@gmail.com
+I started building because valuable customer signals were disappearing across disconnected tools. That frustration became a practical specialty: turning real operational problems into systems people can trust and use every day.
+
+## Connect
+
+**Raleigh–Durham, North Carolina**
+
+[LinkedIn](https://www.linkedin.com/in/tanner-griffith-85455b23/) · [Email](mailto:tanner.griffith@gmail.com)
