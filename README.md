@@ -4,6 +4,19 @@ I'm an Enterprise Customer Success Manager, running a book of 42 accounts worth 
 
 The systems I build now run alongside my actual job, every working day: morning briefs, meeting prep, churn-risk flags, CRM drafts. The rule I stick to is simple: the numbers get computed by code, the model writes the sentences, and I read everything before it goes out.
 
+## Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
+![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=google&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square)
+
 ## What's here
 
 **[phono-storyforge](https://github.com/tanner-griffith/phono-storyforge)** is an adaptive reading tutor for early, struggling, and dyslexic readers, built on Google's Agent Development Kit. I have kids with dyslexia, so this isn't a demo project for me, it's a product I actually need, and I'm building it on the side to help them. It builds a mastery model for each kid, generates books that are guaranteed decodable, figures out exactly which sound a kid missed when they misread a word, and grades itself against a simulated learner that's deliberately modeled differently than the tutor assumes. It started as the capstone for Google's AI Agents Intensive.
