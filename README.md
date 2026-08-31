@@ -1,37 +1,17 @@
 # Tanner Griffith
 
-**I build AI systems that run a real business — starting with my own.**
+I'm an Enterprise Customer Success Manager, running a book of 42 accounts worth $2M in ARR. I taught myself to build with Claude Code and started writing the tools I need for myself.
 
-I'm an Enterprise Customer Success Manager (42 accounts, $1–3M ARR) who designed
-and built the AI systems that manage that book with me: morning briefs, meeting
-prep, churn-risk flags, and CRM drafts — in production, every working day.
+The systems I build now run alongside my actual job, every working day: morning briefs, meeting prep, churn-risk flags, CRM drafts. The rule I stick to is simple: the numbers get computed by code, the model writes the sentences, and I read everything before it goes out.
 
-My design signature, demonstrated across everything here:
-**deterministic where it must be correct; AI where it must be readable.**
-Code computes the numbers. The model writes the sentences. A human reviews every send.
+## What's here
 
-## What to look at
+**[phono-storyforge](https://github.com/tanner-griffith/phono-storyforge)** is an adaptive reading tutor for early, struggling, and dyslexic readers, built on Google's Agent Development Kit. I have kids with dyslexia, so this isn't a demo project for me, it's a product I actually need, and I'm building it on the side to help them. It builds a mastery model for each kid, generates books that are guaranteed decodable, figures out exactly which sound a kid missed when they misread a word, and grades itself against a simulated learner that's deliberately modeled differently than the tutor assumes. It started as the capstone for Google's AI Agents Intensive.
 
-- **[phono-storyforge](https://github.com/tanner-griffith/phono-storyforge)** —
-  An adaptive reading tutor for early, struggling, and dyslexic readers, built on
-  Google's Agent Development Kit. Per-child mastery modeling (Bayesian Knowledge
-  Tracing), guaranteed-decodable book generation with deterministic verification,
-  miscue-to-grapheme attribution, and a simulated-learner eval that deliberately
-  uses a *different* cognitive model than the tutor assumes. Capstone for Google's
-  AI Agents Intensive.
-- **CSM Copilot** *(private)* — my flagship: an AI chief of staff for an enterprise
-  CS portfolio. Claude + MCP connectors over six systems, deterministic Python for
-  metrics and risk flags, a fact-checker subagent gating every brief. It runs on
-  live customer financial data, so the repo stays private — a case study with a
-  synthetic-data demo is coming to my portfolio site.
+**CSM Copilot** is the bigger one, and it's private for now. It's an AI chief of staff for my whole CS portfolio, pulling from six systems through Claude and MCP, with plain Python doing the actual math on risk and metrics and a fact-checker subagent double-checking anything before it reaches a customer. It runs on live customer financial data, so it can't be public, but I'm putting together a case study with synthetic data for my portfolio site.
 
 ## Background
 
-Twenty years responsible for revenue and the relationships behind it — a $30M
-bank portfolio, a decade leading organizations through growth, now enterprise
-SaaS customer success. I taught myself to build with Claude Code because I got
-tired of watching signals die in six different tabs.
+Twenty years in revenue and the relationships behind it. I managed a $30M bank portfolio earlier in my career, spent a decade leading teams through growth, and I'm now in enterprise SaaS customer success. Building with Claude Code is what finally closed the gap between "I know what this account needs" and actually having the tool in front of me to do it.
 
-📍 Raleigh-Durham, NC ·
-[LinkedIn](https://www.linkedin.com/in/tanner-griffith-85455b23/) ·
-tanner.griffith@gmail.com
+📍 Raleigh-Durham, NC · [LinkedIn](https://www.linkedin.com/in/tanner-griffith-85455b23/) · tanner.griffith@gmail.com
