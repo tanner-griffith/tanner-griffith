@@ -33,11 +33,11 @@ The systems I build now run alongside my actual job, every working day: morning 
 
 ## What's here
 
-**[phono-storyforge](https://github.com/tanner-griffith/phono-storyforge)** is an adaptive reading tutor for early, struggling, and dyslexic readers, built on Google's Agent Development Kit. I have kids with dyslexia, so this isn't a demo project for me, it's a product I actually need, and I'm building it on the side to help them. It builds a mastery model for each kid, generates books that are guaranteed decodable, figures out exactly which sound a kid missed when they misread a word, and grades itself against a simulated learner that's deliberately modeled differently than the tutor assumes. It started as the capstone for Google's AI Agents Intensive.
+**[phono-storyforge](https://github.com/tanner-griffith/phono-storyforge)** is an adaptive reading tutor for early, struggling, and dyslexic readers, built on Google's Agent Development Kit. I have kids with dyslexia, so this isn't a demo project for me, it's a product I actually need, and I'm building it on the side to help them. It builds a mastery model for each kid, generates books that are decodable, figures out exactly which sound a kid missed when they misread a word, and grades itself against a simulated learner that's modeled differently than the tutor assumes. It started as the capstone for Google's AI Agents Intensive.
 
 **CSM Copilot** is the bigger one, and it's private for now. It's an AI chief of staff for my whole CS portfolio: connectors into Gmail, Drive, Calendar, and Slack over MCP, with plain Python doing the actual math on risk and metrics and a fact-checker subagent double-checking anything before it reaches a customer. I built the connector layer model-agnostic on purpose — it's not wired to one vendor, so any LLM I run in VS Code, Claude or Codex, sits on the same MCP servers. It runs on live customer financial data, so it can't be public. Happy to walk through how it's built if you're curious.
 
-I also built and maintain **[christourlifeanglican.com](https://christourlifeanglican.com)**, my parish's production site — Next.js and Sanity CMS, plus a Typst pipeline that typesets our liturgical bulletins (custom fonts, print-ready PDFs) for services and weddings.
+I also built and maintain **[christourlifeanglican.com](https://christourlifeanglican.com)**, my parish's production site; Next.js and Sanity CMS, plus a Typst pipeline that typesets our liturgical bulletins (custom fonts, print-ready PDFs) for services and weddings.
 
 ## Background
 
